@@ -5,11 +5,12 @@ import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 import { SiLeetcode } from "react-icons/si";
 import { personalData } from '../utils/data/personal-data';
+import heroPic from "../Images/svg/hero.svg"
 const Hero = () => {
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
       <img
-        src="./Images/svg/hero.svg"
+        src={heroPic}
         alt="Hero"
         width={1572}
         height={795}
